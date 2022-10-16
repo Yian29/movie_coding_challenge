@@ -1,0 +1,216 @@
+*, html, body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    color: rgb(23, 23, 23);
+}
+
+.container{
+    display: flex;
+    box-sizing: border-box;
+    display: block;
+    height: 100vh;
+    margin-left:  100px;
+    margin-right:  100px;
+}
+
+
+.col{
+    display: flex;
+}
+
+.mb-5{
+    margin-bottom: 5rem;
+}
+
+.mb-1{
+    margin-bottom: 1.5rem;
+}
+
+
+.mt-5{
+    margin-top: 5rem;
+}
+
+.mt-4{
+    margin-top: 4rem;
+}
+
+.mt-3{
+    margin-top: 3rem;
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+
+.mt-1{
+    margin-top: 1rem;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.p-2{
+    padding: 20px;
+}
+
+.p-3{
+    padding: 30px;
+}
+
+.p-4{
+    padding: 40px;
+}
+
+.p-5{
+    padding: 50px;
+}
+
+.mr-1{
+    margin-right: 10px;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.btn-dark{
+    color: rgb(235, 235, 235);
+    font-size: 16px;
+    background-color: rgb(23, 23, 23);
+    padding: 8px 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-dark:hover{
+    color: white;
+    background-color: black;
+}
+
+
+.btn-outline{
+    color: rgb(23, 23, 23);
+    font-size: 14px;
+    background-color: none;
+    border: 1px solid rgb(23, 23, 23);
+    padding: 8px 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-outline:hover{
+    color: white;
+    background-color: rgb(23, 23, 23);
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #ebebeb;
+}
+
+
+.alert-box{
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    right: 6.7%;
+    top: 5%;
+    animation-name: animatetop;
+    animation-duration: 0.6s;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+  /* When moving the mouse over the close button */
+.closebtn:hover {
+    color: rgb(23, 23, 23);
+}
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;   
+}
+
+
+.modal-header {
+    padding: 15px 20px;
+    background-color: rgb(23, 23, 23);
+    color: white;
+}
+
+.modal-body {padding: 20px 20px;}
+
+.modal-content {
+    display: none;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 0px;
+    border: 1px solid rgb(23, 23, 23);
+    width: 30%;
+    animation-name: animatetop;
+    animation-duration: 0.6s;
+}
+
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+.close:hover,
+.close:focus {
+    color: #aaa;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@keyframes animatetop {
+    from {opacity: 0}
+    to { opacity: 1}
+}
+

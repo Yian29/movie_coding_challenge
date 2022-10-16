@@ -1,0 +1,27 @@
+[
+    {
+        "id": "634c03c54f22d",
+        "name": "Spiderman",
+        "genre": "Adventure"
+    },
+    {
+        "id": "634c03d44d39a",
+        "name": "Anabel",
+        "genre": "Horror"
+    },
+    {
+        "id": "634c03f097455",
+        "name": "Batman",
+        "genre": "Adventure"
+    },
+    {
+        "id": "634c03fb64a8e",
+        "name": "Doll House",
+        "genre": "Drama"
+    },
+    {
+        "id": "634c04159d483",
+        "name": "Iron Man 3",
+        "genre": "Action, Adventure"
+    }
+]
