@@ -14,5 +14,4 @@
         <!-- MOVIE DISPLAYED HERE -->
     </div>
 
-
 <?php include_once('layout/footer.php'); ?>
